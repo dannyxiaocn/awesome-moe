@@ -8,7 +8,7 @@ With the MoE applying in Transformers to enlarge the parameter size while not en
 [DenseToSparse, 2021](https://arxiv.org/pdf/2112.14397.pdf): training the MoE network first using all experts, raising the hurdle after epoch and epoch, and finally resulting in one-hot or topK experts, which balance the FLOPs and achieve better model quality.  
 ## Transformer with MoE
 [Switch Transformer, 2021](https://arxiv.org/pdf/2101.03961.pdf): using the sparse gate MoE to route the token to a specific FFN expert.  
-![Switch Transformer](https://github.com/dannyxiaocn/awesome-moe/raw/main/pictures/Switch%20Transformer.png)
+<img src="https://github.com/dannyxiaocn/awesome-moe/raw/main/pictures/Switch%20Transformer.png" width="50%">
 [VLMo, 2021](https://arxiv.org/pdf/2111.02358.pdf): using MoE as a multi-modal FFN controller(for text, image and image_text).  
 ## MoE System
 [fastmoe](https://github.com/laekov/fastmoe)([paper](https://arxiv.org/pdf/2103.13262.pdf)): A easy-to-hand-on system for MoE developer, optimizing the system scheduling.  
